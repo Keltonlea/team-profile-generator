@@ -4,6 +4,8 @@ const engineerCard = (profile) => `
     <div class="card-header bg-warning text-white">
       <p class="h3">${profile.getName()}</p>
       <p class="h4">
+      <i class="fas fa-glasses mr-1"></i>
+
         ${profile.getRole()}
       </p>
     </div>
