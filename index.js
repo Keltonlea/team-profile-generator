@@ -3,7 +3,6 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 // Import classes
-const Employee = require('./lib/Employee');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const Manager = require('./lib/Manager');
@@ -145,7 +144,7 @@ function createProfiles(team) {
         return new Manager(name, id, email, officeNumber);
       }
   
-      // if you're adding an engineer, as for github
+      // if you're adding an engineer, ask for github
       if (member.hasOwnProperty('github')) {
         const { github } = member;
         return new Engineer(name, id, email, github);
@@ -187,6 +186,6 @@ writeHtml(newHtml);
 function writeHtml(newHtml) {
     fs.writeFile('./dist/team-profile.html', newHtml, (err) => {
       if (err) throw err;
-      console.log('HTML document successfully created in the /assets folder.');
+      console.log('HTML document successfully created in the /dist folder.');
     });
   };
