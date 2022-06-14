@@ -5,7 +5,6 @@ const internCard = (profile) => `
       <p class="h3">${profile.getName()}</p>
       <p class="h4">
       <i class="fas fa-user-graduate mr-1"></i>
-
         ${profile.getRole()}
       </p>
     </div>

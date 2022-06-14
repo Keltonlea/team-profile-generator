@@ -17,7 +17,6 @@ const cardWrapper = (cards) => `
     <header class="bg-dark py-4 mb-5">
       <h1 class="text-center text-white">
       <i class="fas fa-users mr-1"></i>
-
         Team Profile
       </h1>
     </header>

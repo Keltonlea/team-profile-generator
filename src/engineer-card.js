@@ -5,7 +5,6 @@ const engineerCard = (profile) => `
       <p class="h3">${profile.getName()}</p>
       <p class="h4">
       <i class="fas fa-glasses mr-1"></i>
-
         ${profile.getRole()}
       </p>
     </div>
