@@ -17,7 +17,7 @@
 
   ![Application Preview](assets/team.gif)
 
-  To view the full demo, please direct yourself to ```assests``` folder.
+  To view the full demo as well as a demo of the tests, please direct yourself to ```assests``` folder.
 
   ## Installation
  ``` 
