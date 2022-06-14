@@ -23,9 +23,6 @@
  node i inquirer
   ```
  ``` 
- node i fs 
- ```
- ``` 
  node i jest
   ```
 
